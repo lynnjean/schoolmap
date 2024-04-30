@@ -1,0 +1,2869 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_50273d081187a16b6b48097adb49edfa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_50273d081187a16b6b48097adb49edfa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_50273d081187a16b6b48097adb49edfa = L.map(
+                "map_50273d081187a16b6b48097adb49edfa",
+                {
+                    center: [37.5665, 126.978],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ca6fc2f13d2fc132f33747b1a968d6aa = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            var marker_67190ff4363c9d69a48ace9b405ba90f = L.marker(
+                [33.30594577, 126.7994893],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_67190ff4363c9d69a48ace9b405ba90f.bindTooltip(
+                `<div>
+                     가마초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_587865b5a8a36ec9345c07c7c8b114e8 = L.marker(
+                [33.45925786, 126.4362287],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_587865b5a8a36ec9345c07c7c8b114e8.bindTooltip(
+                `<div>
+                     광령초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07260c45d3ad10cc5539a0e24710287f = L.marker(
+                [33.53565426, 126.6343499],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_07260c45d3ad10cc5539a0e24710287f.bindTooltip(
+                `<div>
+                     조천초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_15d79a5f9da0cf8d348b47e644b83312 = L.marker(
+                [33.52085913, 126.5858906],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_15d79a5f9da0cf8d348b47e644b83312.bindTooltip(
+                `<div>
+                     삼양초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e217f60b70caf70710b4ee6be9e8d7f5 = L.marker(
+                [33.4602189, 126.3333962],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_e217f60b70caf70710b4ee6be9e8d7f5.bindTooltip(
+                `<div>
+                     애월고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cec560986650a72adfffb7cad12f63ce = L.marker(
+                [33.47725479, 126.5437398],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_cec560986650a72adfffb7cad12f63ce.bindTooltip(
+                `<div>
+                     아라초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a33d5c4899984a7f77d96514b1e937f1 = L.marker(
+                [33.48002958, 126.4807053],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_a33d5c4899984a7f77d96514b1e937f1.bindTooltip(
+                `<div>
+                     제주제일고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6bd8ae10c2638e9f252948ee6544b44d = L.marker(
+                [33.4833337, 126.5397621],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_6bd8ae10c2638e9f252948ee6544b44d.bindTooltip(
+                `<div>
+                     제주여자고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1417e92238b70c7bf66d588608f5ece1 = L.marker(
+                [33.2475799, 126.477227],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_1417e92238b70c7bf66d588608f5ece1.bindTooltip(
+                `<div>
+                     도순초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76a2470aa81c6f01f265618a0da1b08c = L.marker(
+                [33.50514824, 126.9554325],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_76a2470aa81c6f01f265618a0da1b08c.bindTooltip(
+                `<div>
+                     우도중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73b2fc56325e221c97b7d24a516e7163 = L.marker(
+                [33.49959967, 126.6577719],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_73b2fc56325e221c97b7d24a516e7163.bindTooltip(
+                `<div>
+                     대흘초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5582de777828fad2ebed59b8da528ff7 = L.marker(
+                [33.54793526, 126.6913627],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_5582de777828fad2ebed59b8da528ff7.bindTooltip(
+                `<div>
+                     북촌초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8afb1e5d09b9f8d23f8d17661385135 = L.marker(
+                [33.48390197, 126.4151797],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_e8afb1e5d09b9f8d23f8d17661385135.bindTooltip(
+                `<div>
+                     하귀일초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_198cfe9542f01c06f4a6f0252d9e64be = L.marker(
+                [33.96431677, 126.2962962],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_198cfe9542f01c06f4a6f0252d9e64be.bindTooltip(
+                `<div>
+                     추자초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ddefbfe71a950a907322fa9f726a1389 = L.marker(
+                [33.25727167, 126.5063965],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_ddefbfe71a950a907322fa9f726a1389.bindTooltip(
+                `<div>
+                     서귀포대신중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f6fe205ea1dd2f58f9a4835b9afa961 = L.marker(
+                [33.25195977, 126.3042902],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_9f6fe205ea1dd2f58f9a4835b9afa961.bindTooltip(
+                `<div>
+                     덕수초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c63b02b01f7e333b245b59ff60c07d55 = L.marker(
+                [33.16918665, 126.2698834],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_c63b02b01f7e333b245b59ff60c07d55.bindTooltip(
+                `<div>
+                     가파초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37d261e3ff529b42e592fa16e7c23803 = L.marker(
+                [33.54458376, 126.6514373],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_37d261e3ff529b42e592fa16e7c23803.bindTooltip(
+                `<div>
+                     함덕고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2eed45dd169ceae5544373998e13d22 = L.marker(
+                [33.51390064, 126.5341722],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f2eed45dd169ceae5544373998e13d22.bindTooltip(
+                `<div>
+                     제주동초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f88fc399989c9be640614c65426fa472 = L.marker(
+                [33.49277175, 126.8972645],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f88fc399989c9be640614c65426fa472.bindTooltip(
+                `<div>
+                     종달초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24b42b6462202ceb69066901dfdc7626 = L.marker(
+                [33.24993808, 126.2758247],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_24b42b6462202ceb69066901dfdc7626.bindTooltip(
+                `<div>
+                     보성초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62e2cc3d3f1dccc556eee3a78c2effda = L.marker(
+                [33.94464889, 126.3252092],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_62e2cc3d3f1dccc556eee3a78c2effda.bindTooltip(
+                `<div>
+                     추자초등학교신양분교장
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e2d6ba17f34acdfc9defa875a982373 = L.marker(
+                [33.4833337, 126.5397621],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_1e2d6ba17f34acdfc9defa875a982373.bindTooltip(
+                `<div>
+                     제주여자중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ab0a9ca0d7f7db2e570bcbbf64d1c98 = L.marker(
+                [33.2883923, 126.3263777],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_7ab0a9ca0d7f7db2e570bcbbf64d1c98.bindTooltip(
+                `<div>
+                     서광초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1d5fbe0e31f4e945ea716bf54eb0b87 = L.marker(
+                [33.47871171, 126.5674875],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_e1d5fbe0e31f4e945ea716bf54eb0b87.bindTooltip(
+                `<div>
+                     영평초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfc55ed647e3c2076672e73b94793858 = L.marker(
+                [33.48610003, 126.5459376],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_dfc55ed647e3c2076672e73b94793858.bindTooltip(
+                `<div>
+                     아라중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ab903159b4b7cc0bb8f34abf57e0fc7 = L.marker(
+                [33.44183667, 126.2931608],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_8ab903159b4b7cc0bb8f34abf57e0fc7.bindTooltip(
+                `<div>
+                     귀덕초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca638b2a0de4a47ef81758ba992899c2 = L.marker(
+                [33.26026985, 126.5582756],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_ca638b2a0de4a47ef81758ba992899c2.bindTooltip(
+                `<div>
+                     서귀북초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de16cd4f3f90485d66d91b3e9e2cabbc = L.marker(
+                [33.53868435, 126.6716504],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_de16cd4f3f90485d66d91b3e9e2cabbc.bindTooltip(
+                `<div>
+                     함덕초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e430f69717b2d196fce74ce550c6737 = L.marker(
+                [33.45359494, 126.3451713],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_4e430f69717b2d196fce74ce550c6737.bindTooltip(
+                `<div>
+                     더럭초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4df430dafc3af73a405bd07c693f14c = L.marker(
+                [33.41031345, 126.2597361],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_c4df430dafc3af73a405bd07c693f14c.bindTooltip(
+                `<div>
+                     한림여자중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c16897ec1900e948b60fdafc208fa62 = L.marker(
+                [33.49005684, 126.4819807],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_8c16897ec1900e948b60fdafc208fa62.bindTooltip(
+                `<div>
+                     남녕고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bcfcbf88747c504c3a12f20bb379b43 = L.marker(
+                [33.47966933, 126.4758285],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_9bcfcbf88747c504c3a12f20bb379b43.bindTooltip(
+                `<div>
+                     노형중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51107ea00fddf9d99c351d822790cd00 = L.marker(
+                [33.3003091, 126.7648491],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_51107ea00fddf9d99c351d822790cd00.bindTooltip(
+                `<div>
+                     흥산초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5a1d1b009cbf977c91890f106037361 = L.marker(
+                [33.47416984, 126.5733732],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f5a1d1b009cbf977c91890f106037361.bindTooltip(
+                `<div>
+                     제주중앙고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_21122ab581d83f7bb0a1622d97e0c26c = L.marker(
+                [33.24504279, 126.5996175],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_21122ab581d83f7bb0a1622d97e0c26c.bindTooltip(
+                `<div>
+                     보목초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ceeac56a8ea635fd5ec0642e47b48095 = L.marker(
+                [33.50996313, 126.5211755],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_ceeac56a8ea635fd5ec0642e47b48095.bindTooltip(
+                `<div>
+                     제주남초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f690b191db3efab7bc2e1cdef54cfd85 = L.marker(
+                [33.30007758, 126.181868],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f690b191db3efab7bc2e1cdef54cfd85.bindTooltip(
+                `<div>
+                     고산중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d74357a3dd605ac580bddb11052ab8ed = L.marker(
+                [33.49250981, 126.5932794],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_d74357a3dd605ac580bddb11052ab8ed.bindTooltip(
+                `<div>
+                     대기고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eef3e819cefda42aaa5d1d2610dd462a = L.marker(
+                [33.51522409, 126.577005],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_eef3e819cefda42aaa5d1d2610dd462a.bindTooltip(
+                `<div>
+                     삼화초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92352959ca4f3c260b7419539c5ea021 = L.marker(
+                [33.44712742, 126.3071662],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_92352959ca4f3c260b7419539c5ea021.bindTooltip(
+                `<div>
+                     곽금초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_24c25e2296ff5158bf5b0959d1d20d20 = L.marker(
+                [33.49477253, 126.480886],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_24c25e2296ff5158bf5b0959d1d20d20.bindTooltip(
+                `<div>
+                     제주서중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c13af90f7805fec7cd1d41661e9bdbb = L.marker(
+                [33.51882145, 126.5723074],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_2c13af90f7805fec7cd1d41661e9bdbb.bindTooltip(
+                `<div>
+                     제주동중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9dd7ab6c31f38ac026675c279d1acfdb = L.marker(
+                [33.4931687, 126.5261625],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_9dd7ab6c31f38ac026675c279d1acfdb.bindTooltip(
+                `<div>
+                     도남초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c10793ee1d133895e680967c606b85ca = L.marker(
+                [33.50173412, 126.5471421],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_c10793ee1d133895e680967c606b85ca.bindTooltip(
+                `<div>
+                     동광초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f34bf902ea410c4c59f86ae82f2a1e2 = L.marker(
+                [33.33115727, 126.826996],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_3f34bf902ea410c4c59f86ae82f2a1e2.bindTooltip(
+                `<div>
+                     표선고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_abd5ae16397a4548c73b140f122fdd03 = L.marker(
+                [33.34927869, 126.8501638],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_abd5ae16397a4548c73b140f122fdd03.bindTooltip(
+                `<div>
+                     풍천초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fc61112d22493307c0f3b50e27cf152 = L.marker(
+                [33.29684267, 126.2918094],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_1fc61112d22493307c0f3b50e27cf152.bindTooltip(
+                `<div>
+                     NLCS JeJu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ada3e54f085f1dcd856b5dc19717296 = L.marker(
+                [33.52155716, 126.8530677],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_8ada3e54f085f1dcd856b5dc19717296.bindTooltip(
+                `<div>
+                     세화중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_163684357256c2b607e94c887760d395 = L.marker(
+                [33.25097421, 126.429445],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_163684357256c2b607e94c887760d395.bindTooltip(
+                `<div>
+                     중문중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04fcefc3445f33910baa0dbf6822170b = L.marker(
+                [33.22918877, 126.2533142],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_04fcefc3445f33910baa0dbf6822170b.bindTooltip(
+                `<div>
+                     대정여자고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8cc1780440ab8998690e2d6ae2ef60e4 = L.marker(
+                [33.23373681, 126.3001334],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_8cc1780440ab8998690e2d6ae2ef60e4.bindTooltip(
+                `<div>
+                     사계초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_627c8fe1c6d98cb54ec4bc18a4ae6d43 = L.marker(
+                [33.40652604, 126.2699123],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_627c8fe1c6d98cb54ec4bc18a4ae6d43.bindTooltip(
+                `<div>
+                     한림공업고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_962c6862ac7a4d1c13679e94f634ffb2 = L.marker(
+                [33.46618837, 126.3914319],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_962c6862ac7a4d1c13679e94f634ffb2.bindTooltip(
+                `<div>
+                     물메초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90879c51dd00c007c314434e78723a63 = L.marker(
+                [33.27652166, 126.5649677],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_90879c51dd00c007c314434e78723a63.bindTooltip(
+                `<div>
+                     남주중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3159352d933ac26053468221535fa955 = L.marker(
+                [33.94580566, 126.3253151],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_3159352d933ac26053468221535fa955.bindTooltip(
+                `<div>
+                     추자중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74898ef2d99a7329d88cb0a99630243e = L.marker(
+                [33.50251511, 126.5301971],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_74898ef2d99a7329d88cb0a99630243e.bindTooltip(
+                `<div>
+                     광양초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a74c2e6535012d101df5fb696c6b36ba = L.marker(
+                [33.23773943, 126.5088334],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_a74c2e6535012d101df5fb696c6b36ba.bindTooltip(
+                `<div>
+                     법환초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa2fee28b856b2fcd08bc3cc4e246a7c = L.marker(
+                [33.28049717, 126.6635449],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_fa2fee28b856b2fcd08bc3cc4e246a7c.bindTooltip(
+                `<div>
+                     위미중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f984aba73ddc9e9e4699f84063fd45ee = L.marker(
+                [33.28529333, 126.2843128],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f984aba73ddc9e9e4699f84063fd45ee.bindTooltip(
+                `<div>
+                     세인트존스베리 아카데미 제주
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2cdb73ac0d151b52912c226aaa0bd3f = L.marker(
+                [33.53301443, 126.6164767],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f2cdb73ac0d151b52912c226aaa0bd3f.bindTooltip(
+                `<div>
+                     조천중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_081e8c212027c4e0008c1a6777182cee = L.marker(
+                [33.49003135, 126.5938134],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_081e8c212027c4e0008c1a6777182cee.bindTooltip(
+                `<div>
+                     봉개초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_27afdc6ed4cace2d1fe278af66b95490 = L.marker(
+                [33.49206857, 126.4836685],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_27afdc6ed4cace2d1fe278af66b95490.bindTooltip(
+                `<div>
+                     신광초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f05623fdfc4be9b09781481b2df508d = L.marker(
+                [33.51780188, 126.5564487],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_7f05623fdfc4be9b09781481b2df508d.bindTooltip(
+                `<div>
+                     오현고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10769df0f9d71334b8c9554793ffe2cc = L.marker(
+                [33.2634386, 126.3696474],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_10769df0f9d71334b8c9554793ffe2cc.bindTooltip(
+                `<div>
+                     창천초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ac2a7d81209fd3b5a7aa11a621f5b10 = L.marker(
+                [33.25667725, 126.5133114],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_0ac2a7d81209fd3b5a7aa11a621f5b10.bindTooltip(
+                `<div>
+                     새서귀초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb78fad7340a8511cb4b287440e2ff9f = L.marker(
+                [33.47355827, 126.3752767],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_fb78fad7340a8511cb4b287440e2ff9f.bindTooltip(
+                `<div>
+                     구엄초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c0c9ab1c5aa6017702d74b5e9a7dae8 = L.marker(
+                [33.40844659, 126.8972158],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_1c0c9ab1c5aa6017702d74b5e9a7dae8.bindTooltip(
+                `<div>
+                     온평초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fda83c47e787585f5d3bf5e23f053aa7 = L.marker(
+                [33.31257557, 126.7772676],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_fda83c47e787585f5d3bf5e23f053aa7.bindTooltip(
+                `<div>
+                     토산초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13ebb3bc09c209fa3856525272d392d6 = L.marker(
+                [33.32933285, 126.8320777],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_13ebb3bc09c209fa3856525272d392d6.bindTooltip(
+                `<div>
+                     표선중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c829d4d2afafe5ce9b65e9bb6a4058b9 = L.marker(
+                [33.26475526, 126.615858],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_c829d4d2afafe5ce9b65e9bb6a4058b9.bindTooltip(
+                `<div>
+                     효돈초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_979267592bb420056a56a18391f1ae82 = L.marker(
+                [33.44939437, 126.3907374],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_979267592bb420056a56a18391f1ae82.bindTooltip(
+                `<div>
+                     장전초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cde6d7acada4e9ec080961bd3688219 = L.marker(
+                [33.55240328, 126.7135735],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_1cde6d7acada4e9ec080961bd3688219.bindTooltip(
+                `<div>
+                     김녕초등학교동복분교장
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6842b7016e8c85a103e86a53c9565d1 = L.marker(
+                [33.50699122, 126.5377495],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_c6842b7016e8c85a103e86a53c9565d1.bindTooltip(
+                `<div>
+                     인화초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f18cf284741a650cf03c6af7dfae7557 = L.marker(
+                [33.24349575, 126.5307976],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f18cf284741a650cf03c6af7dfae7557.bindTooltip(
+                `<div>
+                     서귀포여자고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f87c5bdac64be0a1c6788bec074d9a7 = L.marker(
+                [33.4829105, 126.4978125],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_0f87c5bdac64be0a1c6788bec074d9a7.bindTooltip(
+                `<div>
+                     신제주초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ce97f72859178e6e115c112003f5c7d = L.marker(
+                [33.55208708, 126.7981005],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_3ce97f72859178e6e115c112003f5c7d.bindTooltip(
+                `<div>
+                     구좌중앙초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4331ee088d6867acd55007aef5cd1b98 = L.marker(
+                [33.28864617, 126.2872199],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_4331ee088d6867acd55007aef5cd1b98.bindTooltip(
+                `<div>
+                     KIS High School
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_568d5829b6bf91da14f9600645d6eba9 = L.marker(
+                [33.51467082, 126.536353],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_568d5829b6bf91da14f9600645d6eba9.bindTooltip(
+                `<div>
+                     제주여자상업고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0fbb91668f4d791395cb7ebacc77212f = L.marker(
+                [33.25250801, 126.5643137],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_0fbb91668f4d791395cb7ebacc77212f.bindTooltip(
+                `<div>
+                     서귀중앙초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d09b2233334dc60138e32ee01e3c0224 = L.marker(
+                [33.51747997, 126.877557],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_d09b2233334dc60138e32ee01e3c0224.bindTooltip(
+                `<div>
+                     하도초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d049195e61a6afc78ffff9ea085d914b = L.marker(
+                [33.27410633, 126.6528271],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_d049195e61a6afc78ffff9ea085d914b.bindTooltip(
+                `<div>
+                     위미초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a785788f7cadb92473c05d741894ae2 = L.marker(
+                [33.48488083, 126.4765606],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_5a785788f7cadb92473c05d741894ae2.bindTooltip(
+                `<div>
+                     노형초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0aaab48af0ed50dd045c1479dd593230 = L.marker(
+                [33.28529333, 126.2843128],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_0aaab48af0ed50dd045c1479dd593230.bindTooltip(
+                `<div>
+                     세인트존스베리 아카데미 제주
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_54660414d8e55078e542f4a2d0e3acac = L.marker(
+                [33.47978728, 126.4018893],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_54660414d8e55078e542f4a2d0e3acac.bindTooltip(
+                `<div>
+                     하귀초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_102e569bbc24133ba267cdae91f1fb34 = L.marker(
+                [33.38162136, 126.8755684],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_102e569bbc24133ba267cdae91f1fb34.bindTooltip(
+                `<div>
+                     신산중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_261850793634507b51ce86e080238115 = L.marker(
+                [33.45942788, 126.7042879],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_261850793634507b51ce86e080238115.bindTooltip(
+                `<div>
+                     함덕초등학교선인분교장
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d729b34926a3b3b45ec6ca7b95086e59 = L.marker(
+                [33.51379157, 126.5839871],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_d729b34926a3b3b45ec6ca7b95086e59.bindTooltip(
+                `<div>
+                     도련초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4dc18ac4a9a286e39127a2c1a1593595 = L.marker(
+                [33.51148514, 126.5096832],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_4dc18ac4a9a286e39127a2c1a1593595.bindTooltip(
+                `<div>
+                     제주서초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a739804f571dbb4dbeb56901a223c7c = L.marker(
+                [33.5295992, 126.840142],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_4a739804f571dbb4dbeb56901a223c7c.bindTooltip(
+                `<div>
+                     평대초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79f04b1e57c65baee57f5852bf7db8f9 = L.marker(
+                [33.28864617, 126.2872199],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_79f04b1e57c65baee57f5852bf7db8f9.bindTooltip(
+                `<div>
+                     한국국제학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_029e50103f4a9bbdba5152160e4c5c16 = L.marker(
+                [33.51378535, 126.5102401],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_029e50103f4a9bbdba5152160e4c5c16.bindTooltip(
+                `<div>
+                     제주대학교사범대학부설고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_adc3377ba1b9e92a715204fdfc17d7cb = L.marker(
+                [33.47698922, 126.5640675],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_adc3377ba1b9e92a715204fdfc17d7cb.bindTooltip(
+                `<div>
+                     신성여자고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb8bb07c6f5f6fb7567ad42cab55493a = L.marker(
+                [33.55488251, 126.7499135],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_bb8bb07c6f5f6fb7567ad42cab55493a.bindTooltip(
+                `<div>
+                     김녕초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a78b0a5191ac8da6d112722bd6b1022f = L.marker(
+                [33.27652166, 126.5649677],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_a78b0a5191ac8da6d112722bd6b1022f.bindTooltip(
+                `<div>
+                     남주고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d21bb839d0236d673eb87dc2d37f2c3b = L.marker(
+                [33.25302345, 126.4301596],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_d21bb839d0236d673eb87dc2d37f2c3b.bindTooltip(
+                `<div>
+                     중문초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0126fd1b8aa78b99975762b061e0e702 = L.marker(
+                [33.48926553, 126.5138529],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_0126fd1b8aa78b99975762b061e0e702.bindTooltip(
+                `<div>
+                     오라초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_132fb6ebe641965d9b7255b795021c95 = L.marker(
+                [33.29764586, 126.5947672],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_132fb6ebe641965d9b7255b795021c95.bindTooltip(
+                `<div>
+                     서귀포산업과학고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6de1d202ccc43ce2a761a26cd03da00 = L.marker(
+                [33.45703335, 126.4545476],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_e6de1d202ccc43ce2a761a26cd03da00.bindTooltip(
+                `<div>
+                     해안초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d42a209006e3f014133a96d6442b561 = L.marker(
+                [33.38162136, 126.8755684],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_1d42a209006e3f014133a96d6442b561.bindTooltip(
+                `<div>
+                     신산초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da6659dc1cc25885cba85444651846d2 = L.marker(
+                [33.28529333, 126.2843128],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_da6659dc1cc25885cba85444651846d2.bindTooltip(
+                `<div>
+                     세인트존스베리 아카데미 제주
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_754440c61586963af19ba4fd8f499b97 = L.marker(
+                [33.2472993, 126.5693104],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_754440c61586963af19ba4fd8f499b97.bindTooltip(
+                `<div>
+                     서귀포중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9c3506e1713f454598c514b303a870f = L.marker(
+                [33.49567465, 126.5392087],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_e9c3506e1713f454598c514b303a870f.bindTooltip(
+                `<div>
+                     제주제일중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8841da832df1468e6cc9cd2142d9bdea = L.marker(
+                [33.47090122, 126.7811144],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_8841da832df1468e6cc9cd2142d9bdea.bindTooltip(
+                `<div>
+                     송당초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d333f3332e93702b567a93e44b9d7d3e = L.marker(
+                [33.23500897, 126.4786657],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_d333f3332e93702b567a93e44b9d7d3e.bindTooltip(
+                `<div>
+                     강정초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cff9b04e9b42fe9ba0ef64ddb8f639b8 = L.marker(
+                [33.46460717, 126.3246814],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_cff9b04e9b42fe9ba0ef64ddb8f639b8.bindTooltip(
+                `<div>
+                     애월중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed08df3789536f002011a4dba6f252ae = L.marker(
+                [33.26553816, 126.6209394],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_ed08df3789536f002011a4dba6f252ae.bindTooltip(
+                `<div>
+                     효돈중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_488a825fc5ee2aca4034731991b4a2c0 = L.marker(
+                [33.50271672, 126.541031],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_488a825fc5ee2aca4034731991b4a2c0.bindTooltip(
+                `<div>
+                     제주동여자중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ecec437f902e3d06c9cc0899d5da2264 = L.marker(
+                [33.51852927, 126.5757566],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_ecec437f902e3d06c9cc0899d5da2264.bindTooltip(
+                `<div>
+                     동화초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d800a98c2927faae55a17a8bbedf326 = L.marker(
+                [33.51229726, 126.5166019],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_7d800a98c2927faae55a17a8bbedf326.bindTooltip(
+                `<div>
+                     제주중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a338ef7cbceb8b6bda08e9cef16faa8 = L.marker(
+                [33.22559249, 126.2556877],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_9a338ef7cbceb8b6bda08e9cef16faa8.bindTooltip(
+                `<div>
+                     대정초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4682083b9ba2955df4b9defecac3342 = L.marker(
+                [33.25026576, 126.3367729],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_b4682083b9ba2955df4b9defecac3342.bindTooltip(
+                `<div>
+                     안덕초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1d9391d866836fbd00d21e9e466e928 = L.marker(
+                [33.28997179, 126.2872649],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f1d9391d866836fbd00d21e9e466e928.bindTooltip(
+                `<div>
+                     Branksome Hall Asia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6168b9586aa3869706454e22c2285bc6 = L.marker(
+                [33.47778787, 126.4851768],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_6168b9586aa3869706454e22c2285bc6.bindTooltip(
+                `<div>
+                     한라중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6867f5114cd46710a03b3803ddf4bc19 = L.marker(
+                [33.53678618, 126.6726542],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_6867f5114cd46710a03b3803ddf4bc19.bindTooltip(
+                `<div>
+                     함덕중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_179b8db0f8d7994873feb1e4aea47d97 = L.marker(
+                [33.43650075, 126.6780473],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_179b8db0f8d7994873feb1e4aea47d97.bindTooltip(
+                `<div>
+                     조천초등학교교래분교장
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5f4228db2be5a5522cfd5dbfc6342ab = L.marker(
+                [33.43397575, 126.4259791],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f5f4228db2be5a5522cfd5dbfc6342ab.bindTooltip(
+                `<div>
+                     제주외국어고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ee737116b51a72bfe9d6280d77f0386 = L.marker(
+                [33.23192559, 126.2595004],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_1ee737116b51a72bfe9d6280d77f0386.bindTooltip(
+                `<div>
+                     대정고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1d298401e623143cc883ecb40d8367b = L.marker(
+                [33.35664546, 126.2963556],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f1d298401e623143cc883ecb40d8367b.bindTooltip(
+                `<div>
+                     금악초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d583fd76949bc651cfea1955b25d9b76 = L.marker(
+                [33.34898229, 126.1851933],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_d583fd76949bc651cfea1955b25d9b76.bindTooltip(
+                `<div>
+                     신창초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3da9c57628db9bc1e17cc9daa44c799 = L.marker(
+                [33.47972349, 126.8949188],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f3da9c57628db9bc1e17cc9daa44c799.bindTooltip(
+                `<div>
+                     시흥초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acea4da926da43e2ab4fe34fabc2cbef = L.marker(
+                [33.38866901, 126.2383722],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_acea4da926da43e2ab4fe34fabc2cbef.bindTooltip(
+                `<div>
+                     재릉초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e26be776caad77433671bc0176e96ad = L.marker(
+                [33.25378497, 126.5285133],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_7e26be776caad77433671bc0176e96ad.bindTooltip(
+                `<div>
+                     서호초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa0078bc5a35ace2661a07a1fba4d5d1 = L.marker(
+                [33.42609303, 126.2700998],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_fa0078bc5a35ace2661a07a1fba4d5d1.bindTooltip(
+                `<div>
+                     수원초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09be1480af868da9f4c6315c8076a921 = L.marker(
+                [33.28225502, 126.7175237],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_09be1480af868da9f4c6315c8076a921.bindTooltip(
+                `<div>
+                     남원중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fc5320d6038b6c9d55a8eb261a0863d = L.marker(
+                [33.53447338, 126.6195153],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_6fc5320d6038b6c9d55a8eb261a0863d.bindTooltip(
+                `<div>
+                     신촌초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9ffeba61cbc171b5be95469d1d4795f = L.marker(
+                [33.46548949, 126.3224061],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_e9ffeba61cbc171b5be95469d1d4795f.bindTooltip(
+                `<div>
+                     애월초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4de7336bd5e0be5d36d575a138d8787c = L.marker(
+                [33.21996162, 126.2532327],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_4de7336bd5e0be5d36d575a138d8787c.bindTooltip(
+                `<div>
+                     대정중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7aaebd53f17b7a0ee149bad117f80713 = L.marker(
+                [33.38427482, 126.7985093],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_7aaebd53f17b7a0ee149bad117f80713.bindTooltip(
+                `<div>
+                     성읍초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a310d2fef1dbb8643d2b8619abc89eea = L.marker(
+                [33.28622541, 126.7434137],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_a310d2fef1dbb8643d2b8619abc89eea.bindTooltip(
+                `<div>
+                     태흥초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cee2e4194bf6c623bf52e83e56ca0bf8 = L.marker(
+                [33.50907824, 126.5294157],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_cee2e4194bf6c623bf52e83e56ca0bf8.bindTooltip(
+                `<div>
+                     일도초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78ac28e83b1bd6fa54a3d95124b5f938 = L.marker(
+                [33.50185617, 126.4654959],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_78ac28e83b1bd6fa54a3d95124b5f938.bindTooltip(
+                `<div>
+                     도리초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c55f6db2d0f49cf7c0939f22a91d6ee9 = L.marker(
+                [33.4920277, 126.5450897],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_c55f6db2d0f49cf7c0939f22a91d6ee9.bindTooltip(
+                `<div>
+                     탐라중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_580783afbd17d71659428564b035ee52 = L.marker(
+                [33.30452697, 126.1768735],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_580783afbd17d71659428564b035ee52.bindTooltip(
+                `<div>
+                     고산초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5f574d57a4c2cf7e4aeca5f188b0d8a = L.marker(
+                [33.31111895, 126.714628],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f5f574d57a4c2cf7e4aeca5f188b0d8a.bindTooltip(
+                `<div>
+                     의귀초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d40744c2fdf62ffd04c26dae060c398 = L.marker(
+                [33.3523561, 126.8145563],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_9d40744c2fdf62ffd04c26dae060c398.bindTooltip(
+                `<div>
+                     한마음초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f5d25b224db3797b190a1c101032ae0 = L.marker(
+                [33.25334293, 126.4594523],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_2f5d25b224db3797b190a1c101032ae0.bindTooltip(
+                `<div>
+                     하원초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3aa08f9140ea6d0379eb6b339857ba14 = L.marker(
+                [33.26064367, 126.5697459],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_3aa08f9140ea6d0379eb6b339857ba14.bindTooltip(
+                `<div>
+                     동홍초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62bbba584074bac64f9031df830eb8c6 = L.marker(
+                [33.53912963, 126.8290084],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_62bbba584074bac64f9031df830eb8c6.bindTooltip(
+                `<div>
+                     한동초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0da756823f94776b339c7afc4aa24cd3 = L.marker(
+                [33.44361266, 126.9106478],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_0da756823f94776b339c7afc4aa24cd3.bindTooltip(
+                `<div>
+                     성산중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4efab6e29baf4a98ba20d3eaad90a2fd = L.marker(
+                [33.51619733, 126.862739],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_4efab6e29baf4a98ba20d3eaad90a2fd.bindTooltip(
+                `<div>
+                     세화고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfe12c2c72e741230473bbce589253e2 = L.marker(
+                [33.51592494, 126.5085016],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_dfe12c2c72e741230473bbce589253e2.bindTooltip(
+                `<div>
+                     제주대학교사범대학부설중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe888b04e2e7098d387ceec9c2aa20ef = L.marker(
+                [33.48082926, 126.4467736],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_fe888b04e2e7098d387ceec9c2aa20ef.bindTooltip(
+                `<div>
+                     도평초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a126dac2817f303720760fd008f5fc5d = L.marker(
+                [33.27282519, 126.201483],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_a126dac2817f303720760fd008f5fc5d.bindTooltip(
+                `<div>
+                     무릉중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58254269241c6427cb14b3d542038ec2 = L.marker(
+                [33.26498644, 126.6313153],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_58254269241c6427cb14b3d542038ec2.bindTooltip(
+                `<div>
+                     하례초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_304af603ee8bc037edf348064353243f = L.marker(
+                [33.34898229, 126.1851933],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_304af603ee8bc037edf348064353243f.bindTooltip(
+                `<div>
+                     신창중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caa7c6e1d693e44ba32ab4bcd501b35f = L.marker(
+                [33.4493879, 126.9140525],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_caa7c6e1d693e44ba32ab4bcd501b35f.bindTooltip(
+                `<div>
+                     동남초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56c78090c0bda6de174601ad950d2f7b = L.marker(
+                [33.32627333, 126.2512136],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_56c78090c0bda6de174601ad950d2f7b.bindTooltip(
+                `<div>
+                     저청초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ee5bf27454946c753fa5576a3fe8fe1 = L.marker(
+                [33.25486483, 126.4468949],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_3ee5bf27454946c753fa5576a3fe8fe1.bindTooltip(
+                `<div>
+                     중문고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76497b3e141e8c03aef49b4bc087c7c4 = L.marker(
+                [33.49246577, 126.4346988],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_76497b3e141e8c03aef49b4bc087c7c4.bindTooltip(
+                `<div>
+                     외도초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2daa81f969a10114d644d8d4ba65162 = L.marker(
+                [33.49130755, 126.539486],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_b2daa81f969a10114d644d8d4ba65162.bindTooltip(
+                `<div>
+                     제주중앙여자고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_802f210b47d7cfbc746fc34c0ae5c2d4 = L.marker(
+                [33.48789867, 126.5321344],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_802f210b47d7cfbc746fc34c0ae5c2d4.bindTooltip(
+                `<div>
+                     이도초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_751a174cae3ecdd7558c5c771a302fdd = L.marker(
+                [33.40574382, 126.2664728],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_751a174cae3ecdd7558c5c771a302fdd.bindTooltip(
+                `<div>
+                     한림중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f436cc9056a18c5f3a25695b5ddffa60 = L.marker(
+                [33.39775136, 126.2583198],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f436cc9056a18c5f3a25695b5ddffa60.bindTooltip(
+                `<div>
+                     한림고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e12aa8ce3e90fd755a731fc1ca19825b = L.marker(
+                [33.4778157, 126.4864335],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_e12aa8ce3e90fd755a731fc1ca19825b.bindTooltip(
+                `<div>
+                     한라초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e927524aa825e1c9d3744cbcc5513601 = L.marker(
+                [33.42661999, 126.5314445],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_e927524aa825e1c9d3744cbcc5513601.bindTooltip(
+                `<div>
+                     제주과학고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc561c6c96590650a62c85ebafc8e3da = L.marker(
+                [33.27282519, 126.2014269],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_cc561c6c96590650a62c85ebafc8e3da.bindTooltip(
+                `<div>
+                     무릉초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_646133eaff3a71f6f53fdadea9e14c8d = L.marker(
+                [33.24892777, 126.3374515],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_646133eaff3a71f6f53fdadea9e14c8d.bindTooltip(
+                `<div>
+                     안덕중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa6f8c29ac4a6ea4091f4ef98b119929 = L.marker(
+                [33.50733353, 126.5127972],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_fa6f8c29ac4a6ea4091f4ef98b119929.bindTooltip(
+                `<div>
+                     한천초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80631cb6d4c43f4f1255b9054eeec3b6 = L.marker(
+                [33.52273262, 126.8589201],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_80631cb6d4c43f4f1255b9054eeec3b6.bindTooltip(
+                `<div>
+                     세화초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da4cbcb3b5126dc1d90cb524bf78c503 = L.marker(
+                [33.28468832, 126.6317123],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_da4cbcb3b5126dc1d90cb524bf78c503.bindTooltip(
+                `<div>
+                     신례초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f2949077210eb52e931cc18038ba143 = L.marker(
+                [33.30007758, 126.181868],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_4f2949077210eb52e931cc18038ba143.bindTooltip(
+                `<div>
+                     한국뷰티고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_adabcdfccc3574cc2727fd06bbdce607 = L.marker(
+                [33.4683629, 126.931864],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_adabcdfccc3574cc2727fd06bbdce607.bindTooltip(
+                `<div>
+                     성산초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb724400f26c6ee33ccfcfd5abdfb6e9 = L.marker(
+                [33.47270585, 126.3684672],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_fb724400f26c6ee33ccfcfd5abdfb6e9.bindTooltip(
+                `<div>
+                     신엄중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_369622f1a3af413d46af5a76f86d52e2 = L.marker(
+                [33.50346053, 126.5248832],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_369622f1a3af413d46af5a76f86d52e2.bindTooltip(
+                `<div>
+                     삼성초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebf52b13c4e761cc3b57756d9b70eb0d = L.marker(
+                [33.4110704, 126.2602319],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_ebf52b13c4e761cc3b57756d9b70eb0d.bindTooltip(
+                `<div>
+                     한림초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2766c615c4c3a4baa00b9fca7ed7788 = L.marker(
+                [33.48675886, 126.5006626],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_c2766c615c4c3a4baa00b9fca7ed7788.bindTooltip(
+                `<div>
+                     제주중앙중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d2182cae7f3a731f73681c044ed12de = L.marker(
+                [33.51499283, 126.5213837],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_5d2182cae7f3a731f73681c044ed12de.bindTooltip(
+                `<div>
+                     제주북초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edf1c786db880fcc03f353ac8743862b = L.marker(
+                [33.26630439, 126.5897627],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_edf1c786db880fcc03f353ac8743862b.bindTooltip(
+                `<div>
+                     토평초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e9298eb1e99fd4bff59a315f6c9fe16 = L.marker(
+                [33.25584018, 126.5465121],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_6e9298eb1e99fd4bff59a315f6c9fe16.bindTooltip(
+                `<div>
+                     서귀포여자중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_248f0e90487f99d44a29596dc78a746d = L.marker(
+                [33.47900072, 126.4052261],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_248f0e90487f99d44a29596dc78a746d.bindTooltip(
+                `<div>
+                     귀일중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b7780db44542df59b4e957aa0cca548 = L.marker(
+                [33.51862452, 126.5613927],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_1b7780db44542df59b4e957aa0cca548.bindTooltip(
+                `<div>
+                     화북초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d317370b30c8c0b456054178589bf27 = L.marker(
+                [33.4354432, 126.3306486],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_9d317370b30c8c0b456054178589bf27.bindTooltip(
+                `<div>
+                     납읍초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b0d19eab00b3b622a1a5444c727f912 = L.marker(
+                [33.47704923, 126.5631856],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_3b0d19eab00b3b622a1a5444c727f912.bindTooltip(
+                `<div>
+                     신성여자중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f90a0a57e7c166b2eb6d7c6b0a6541e3 = L.marker(
+                [33.24574733, 126.3915555],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_f90a0a57e7c166b2eb6d7c6b0a6541e3.bindTooltip(
+                `<div>
+                     예래초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_474f590049d342941474038131cf2626 = L.marker(
+                [33.49312138, 126.4784428],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_474f590049d342941474038131cf2626.bindTooltip(
+                `<div>
+                     월랑초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72d38708f0d45073be77c61fed75fc15 = L.marker(
+                [33.51505511, 126.7046052],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_72d38708f0d45073be77c61fed75fc15.bindTooltip(
+                `<div>
+                     선흘초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9cac6175162d71ba9c426cce5e9e0115 = L.marker(
+                [33.32556023, 126.2529321],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_9cac6175162d71ba9c426cce5e9e0115.bindTooltip(
+                `<div>
+                     저청중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d94fc186d87ae858c698b17ce0e4bb4b = L.marker(
+                [33.32994427, 126.834314],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_d94fc186d87ae858c698b17ce0e4bb4b.bindTooltip(
+                `<div>
+                     표선초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e3a06c7a09ce93057924d1cdd08b052 = L.marker(
+                [33.44710826, 126.8848955],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_9e3a06c7a09ce93057924d1cdd08b052.bindTooltip(
+                `<div>
+                     수산초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b038d168a49fc1a265f8677a9fee826 = L.marker(
+                [33.47237342, 126.4816709],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_8b038d168a49fc1a265f8677a9fee826.bindTooltip(
+                `<div>
+                     제주고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90bf1c7d1207c5fc0426e0e8c35a4ed7 = L.marker(
+                [33.50514824, 126.9554325],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_90bf1c7d1207c5fc0426e0e8c35a4ed7.bindTooltip(
+                `<div>
+                     우도초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_385529db374f7236c16aa3391d07d576 = L.marker(
+                [33.51780188, 126.5564692],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_385529db374f7236c16aa3391d07d576.bindTooltip(
+                `<div>
+                     오현중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d03ced9faa91948f095ddb2e149e791e = L.marker(
+                [33.25701725, 126.563108],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_d03ced9faa91948f095ddb2e149e791e.bindTooltip(
+                `<div>
+                     서귀포고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6190696bb428ac1b4eb53a5996cc834d = L.marker(
+                [33.51667441, 126.5844702],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_6190696bb428ac1b4eb53a5996cc834d.bindTooltip(
+                `<div>
+                     오름중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_150c3b201b24dd050d582317b5e64d1f = L.marker(
+                [33.24450481, 126.5665408],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_150c3b201b24dd050d582317b5e64d1f.bindTooltip(
+                `<div>
+                     서귀포초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe25415d7bbfd3e25fb3f3f7a853b592 = L.marker(
+                [33.25432127, 126.5560258],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_fe25415d7bbfd3e25fb3f3f7a853b592.bindTooltip(
+                `<div>
+                     서귀서초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e4971e9ada4e94d3b362b2edbd0e5c3 = L.marker(
+                [33.23207825, 126.2395591],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_8e4971e9ada4e94d3b362b2edbd0e5c3.bindTooltip(
+                `<div>
+                     대정서초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_001c7d1d6f6e58a1aad7a672e76915a2 = L.marker(
+                [33.50258332, 126.5150136],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_001c7d1d6f6e58a1aad7a672e76915a2.bindTooltip(
+                `<div>
+                     제주중앙초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22b7e848561aae4cf0f1d077adc9bd45 = L.marker(
+                [33.49311656, 126.5395938],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_22b7e848561aae4cf0f1d077adc9bd45.bindTooltip(
+                `<div>
+                     남광초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5e990feb421cdbd69cccd54e1697f7b = L.marker(
+                [33.50520116, 126.5216203],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_b5e990feb421cdbd69cccd54e1697f7b.bindTooltip(
+                `<div>
+                     제주중앙여자중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68d022ba2cf62301c0e82731f52bf050 = L.marker(
+                [33.55266695, 126.7507701],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_68d022ba2cf62301c0e82731f52bf050.bindTooltip(
+                `<div>
+                     김녕중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9563ffff439ba5cec4107befcce3351 = L.marker(
+                [33.25435707, 126.5835744],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_b9563ffff439ba5cec4107befcce3351.bindTooltip(
+                `<div>
+                     삼성여자고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8216be8b91322ce35b131c39d28003c9 = L.marker(
+                [33.47020324, 126.9151667],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_8216be8b91322ce35b131c39d28003c9.bindTooltip(
+                `<div>
+                     성산고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef64d356757fb193713c52d8b6b10db7 = L.marker(
+                [33.27898087, 126.7152073],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_ef64d356757fb193713c52d8b6b10db7.bindTooltip(
+                `<div>
+                     남원초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6663c7b1d2f60a44579709c25ea95d9f = L.marker(
+                [33.51393117, 126.5522692],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_6663c7b1d2f60a44579709c25ea95d9f.bindTooltip(
+                `<div>
+                     제주대학교교육대학부설초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e53a1e8b84595c166bb921c31fa9b35 = L.marker(
+                [33.25564731, 126.5618758],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_2e53a1e8b84595c166bb921c31fa9b35.bindTooltip(
+                `<div>
+                     서귀중앙여자중학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74d7d65e832b1b23c3feab729f1fa9d3 = L.marker(
+                [33.48710078, 126.4702267],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_74d7d65e832b1b23c3feab729f1fa9d3.bindTooltip(
+                `<div>
+                     백록초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9df94dced3f25f2de9e7a142bfb36b62 = L.marker(
+                [33.45478672, 126.5797642],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_9df94dced3f25f2de9e7a142bfb36b62.bindTooltip(
+                `<div>
+                     영주고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcc452dfa49c6da9874851dd9f03680a = L.marker(
+                [33.42019297, 126.3131765],
+                {}
+            ).addTo(map_50273d081187a16b6b48097adb49edfa);
+        
+    
+            marker_dcc452dfa49c6da9874851dd9f03680a.bindTooltip(
+                `<div>
+                     어도초등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
